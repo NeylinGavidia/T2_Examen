@@ -27,6 +27,7 @@ namespace T2_Examen
                 Console.WriteLine("1.retiro, 2.saldo, 3.deposito, 0.salir ");
 
                 opcion = int.Parse(Console.ReadLine());
+                Console.WriteLine();
 
                 switch (opcion)
 

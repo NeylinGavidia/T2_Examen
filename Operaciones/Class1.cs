@@ -19,12 +19,14 @@ namespace Operaciones
         {
             Console.WriteLine("Ingrese el monto a retirar (Costo de la comision S/.8)");
             re = float.Parse(Console.ReadLine());
+            Console.WriteLine();
             if (re <= 500)
             {
                 resi = monto - (re + 8);
                 if (resi >= 0) {
                     Console.WriteLine("Se ha retirado: " + re + " mas 8 soles de comisión");
                     Console.WriteLine("El monto actual es: " + resi);
+                    Console.WriteLine();
                 }
                 else
                 {
@@ -35,27 +37,33 @@ namespace Operaciones
             else
             {
                 Console.WriteLine("La operación no puede ser mayor a S/500");
+                Console.WriteLine();
             }
 
         }
         public void saldo()
         {
             Console.WriteLine("El monto actual es:" + monto);
+            Console.WriteLine();
         }
         public void deposito()
         {
             Console.WriteLine("Ingrese el monto a depositar (Costo de la comision S/.2)");
             dep = float.Parse(Console.ReadLine());
+            Console.WriteLine();
             if (dep <= 1000)
             {
                 ad = monto + (dep - 2);
                 Console.WriteLine("Se ha depositado: " + dep + " menos 2 soles de comisión");
                 Console.WriteLine("El monto actual es: " + ad);
+                Console.WriteLine();
             }
             else
             {
                 Console.WriteLine("La operación no puede ser mayor a S/1000");
+                Console.WriteLine();
             }
+            monto = ad;
         }
     }
     }
