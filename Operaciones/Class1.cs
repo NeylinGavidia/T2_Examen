@@ -13,7 +13,7 @@ namespace Operaciones
     //maximo de deposito 1000;
     {
         float re, resi, dep, ad;
-        float monto = 20;
+        float monto = 2000;
 
         public void retiro()
         {
