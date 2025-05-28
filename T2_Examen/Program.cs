@@ -17,8 +17,8 @@ namespace T2_Examen
             //maximo puede retirar 500 soles en operacion;
             //maximo de deposito 1000;
             //se debe poder ver ver el saldo y usar clases y metodos
-            int opcion, respuesta;
-            float monto = 2000;
+            int opcion;
+            
 
             Class1 banco = new Class1();
 
