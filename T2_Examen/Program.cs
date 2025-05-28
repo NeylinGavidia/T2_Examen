@@ -19,7 +19,6 @@ namespace T2_Examen
             //se debe poder ver ver el saldo y usar clases y metodos
             int opcion;
             
-
             Class1 banco = new Class1();
 
             Console.WriteLine("Bienvenido/a a su banco, elija la operación que quiere realizar.");
@@ -64,7 +63,7 @@ namespace T2_Examen
                         break;
                 }
             }
-            while (opcion != 4 && opcion !=0);
+            while (opcion !=0);
         }
     }
 }
